@@ -1,4 +1,7 @@
 "use strict";
+const book = "It Ends With Us";
+let activity = "Playing Soccer";
+
 
 // Declaring constant variables to store references to the elements
 // that will be updated by your code.
@@ -25,12 +28,13 @@ function updateBookSentence() {
 function updateActivitySentence() {
     // Update this function 
     // (hint: it will be similiar to the previous function)
-
+    activityAnswerEl.innerText = activity
 }
 
 function render() {
     // Finish writing this function
     updateBookSentence();
+    updateActivitySentence();
 
 }
 
